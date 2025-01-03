@@ -1,12 +1,12 @@
-ul{
+ul {
     list-style: none;
 }
 
-.gallery{
-display: flex;
-flex-wrap: wrap;
-gap: 16px;
-cursor:zoom-in;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    cursor: zoom-in;
 }
 
 .galleryItem {
@@ -18,7 +18,7 @@ cursor:zoom-in;
 }
 
 .galleryItem:hover {
-transform: scale(1.03)
+    transform: scale(1.06)
 }
 
 .galleryItem img {
